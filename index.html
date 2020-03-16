@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Calculator</title>
+
+</head>
+<body>
+    <h1>SIMPLE CALCULATOR</h1>
+    <body>
+        <div class="container">
+        
+          <div class="calcu">
+           <div class="textArea">
+              <input type="text" class="numberArea" id="textInput" onkeypress="isInputNumber(event)">
+            </div>
+            
+            <h2 class="result">Result:
+              <input type="number" class="resultArea" id="resultInput" readonly></div>
+            </h2>
+                <button id="add" onclick="dis('+')" class="addi">+</button>
+                <button id="minus" onclick="dis('-')" class="minu">-</button>
+                <button id="multi" onclick="dis('*')" class="multi">*</button>
+                <button id="divi" onclick="dis('/')" class="divi">/</button>
+                <button id="rise" onclick="dis('**2')" class="rises">X^2</button>
+                <button id="percent" onclick="dis('*.')" class="per">%</button>
+                <button id="equal" onclick="equal()" class="equals">=</button>
+                <button id="clear" onclick="clearMe()" class="clear">CLEAR!</button>
+          </div>
+        </div>
+    </body>
+<script src="main.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-size: auto;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    color:black;
+    background-color: black;
+    width: 30%;
+    margin: auto;
+    padding: 35px;
+    text-align: left;
+}
+.calcu h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}  
+.calcu input {
+    background-color: black;
+    color: white;
+    width: 94.5%;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0px 0 0px;
+}
+.addi, .minu, .divi, .rises, .multi, .equals, .per, .clear{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+}
